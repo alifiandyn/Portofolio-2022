@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://asset.kompas.com/crops/uPjOgTklgJ-Fh30VBlAm4Th929A=/0x0:1000x667/750x500/data/photo/2020/06/15/5ee76efd69593.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    min-height: 768px;
+    padding-top: 20px;
+}
+
+.main-content .welcome-message {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 100px;
+}
+
+.product-description {
+    min-height: 150px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    font-family: Lucida Console, Courier, monospace;
+}
