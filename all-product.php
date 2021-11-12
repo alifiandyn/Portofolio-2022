@@ -8,33 +8,7 @@ $result = mysqli_query($conn, 'SELECT * FROM product');
 if (!$result) {
     echo mysqli_error($conn);
 }
-function is_decimal($n)
-{
-    // Note that floor returns a float 
-    return is_numeric($n) && floor($n) != $n;
-}
-$input = 12;
-$i = 0;
-// for ($i; $i <= $input; $i++) {
-//     $wle = (($i * $input) / 7);
-//     if (is_decimal($wle) == 1) {
-//         $hasil = $i + 7;
-//         echo $hasil . "<br>";
-//     }
-// }
 
-// echo (is_decimal(2.666666667));
-
-while ($input >= $i) {
-    $wle = (($i * $input) / 9);
-    if (is_decimal($wle) == 1) {
-        $hasil = $i + 7;
-        echo $hasil . "<br>";
-    }
-    $i++;
-}
-
-die;
 ?>
 
 <!doctype html>
